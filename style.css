@@ -1,0 +1,73 @@
+body {
+    background-color: #DACC3E;
+}
+
+.title {
+    color: #DDD92A;
+}
+
+.sub-title {
+    color: #EAE151;
+}
+
+/* mainContainer */
+.mainContainer {
+    width: 85rem;
+    margin-left: 3px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+/* app-info */
+.app-info {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40rem;
+    margin-top: 8px;
+    margin-right: 10px;
+    background-color: #573456;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+}
+
+/* Input Field and Search Button */
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 39rem;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: #573456;
+    color: #EAE151;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Weather Details */
+#weather-output {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 39rem;
+    margin-left: 5px;
+    margin-top: 15px;
+    background-color: #573456;
+    color: #EAE151;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*  city-input Field */
+#city-input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* searchBtn */
+#searchBtn {
+    background-color: #D76510;
+    border-radius: 10px;
+}

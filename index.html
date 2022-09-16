@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body class="text-center">
+    <!-- This is the APP Container -->
+    <main class="mainContainer">
+      <!-- APP Information -->
+      <div class="app-info">
+        <h3><strong class="title">Discover Weather</br></br></br></strong><i class="sub-title">Smart and Convenient Weather Assistant.</br></br>Access current weather data for any location including over 200,000 cities</i></h3>
+      </div>
+        <!-- This is the Search Input -->
+        <div class="form-group">
+          <div>
+            <input id="city-input" class="form-control-lg" type="text" placeholder="Search city">
+          </div>
+          <div>
+            <button id="searchBtn" type="button" onclick="searchCity()" class="btn btn-lg btn-dark">Search</button>
+          </div>
+        </div>
+        <!-- This is to Show the Weather Details on WEBPAGE -->
+        <div id="weather-output">
+          <div class="">
+              <div class="">
+                <!-- This will show  the CITY -->
+                <div class="card-header">
+                  <h4 id="city_name" class="my-0 font-weight-normal">----</h4></br></br></br></br>
+                </div>
+                <!-- This will show the Weather Details -->
+                <div class="card-body">
+                  <h1 id="weather_type">----</h1></br></br>
+                  <ul class="list-unstyled mt-3 mb-4">
+                  <li>Temp: <span id="temp">--</span>°F</li></br>
+                    <li>Min Temp: <span id="min_temp">--</span>°F</li>
+                    <li>Max Temp: <span id="max_temp">--</span>°F</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
